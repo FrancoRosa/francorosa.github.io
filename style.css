@@ -1,3 +1,21 @@
+section {
+  height: 100vh;
+}
+
+.container {
+  padding-top: 3rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .footer {
   padding: 0;
   margin: 0;

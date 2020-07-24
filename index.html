@@ -9,57 +9,41 @@
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar sticky" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="#">
-        <h3 class="title is-5">Franco</h3>
+        <h3 class="title is-5 has-text-info">Franco</h3>
       </a>
-  
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-  
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item">
-          Projects
-        </a>
-        <a class="navbar-item">
-          Resume
-        </a>
-        <a class="navbar-item">
-          Contact
-        </a>
+        <a class="navbar-item" href="#intro" >Intro</a>
+        <a class="navbar-item has-text-info" href="#projects" >Projects</a>
+        <a class="navbar-item" href="#contact" >Contact</a>
       </div>
     </div>
   </nav>
-  <section class="intro">
+  <section class="intro" id="intro">
     <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
+      <h1 class="title">Intro</h1>
+      <p class="subtitle">Hey, this is <strong>Franco</strong>! I am a fullstack developer with background on circuits and M2M communications</p>
     </div>
   </section>
-  <section class="projects">
+  <section class="projects" id="projects">
     <div class="container">
-      <h1 class="title">Section</h1>
-      <h2 class="subtitle">
-        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-      </h2>
+      <h1 class="title">Projects</h1>
+      <h2 class="subtitle">Here are the projects I would like to <strong>show</strong> you</h2>
     </div>
   </section>
-  <section class="contact">
+  <section class="contact" id="contact">
     <div class="container">
-      <h1 class="title">Section</h1>
-      <h2 class="subtitle">
-        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-      </h2>
+      <h1 class="title">Contact</h1>
+      <h2 class="subtitle">I will be happy to hear how can I help you</h2>
     </div>
   </section>
   <footer class="footer">
