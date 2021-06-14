@@ -4,9 +4,19 @@
   width: 100%;
 }
 
+.navbar-end{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	font-family: monospace;
+}
+
+.navbar-end > a{
+  margin: .5em;
+}
+
 #intro, #contact {
   height: 100vh;
-  background-color: #e7e7e7;
 }
 
 .fits-screen{
@@ -28,13 +38,46 @@
 .footer {
   padding: 1rem 0;
   margin: 0;
+	font-family: monospace;
+
 }
 
 .footer > p {
   padding: 0;
   margin: -1rem;
+
+
 }
 
 .social-links {
   font-size: 2rem;
+}
+
+#terminal > span {
+	font-family: monospace;
+	font-size: 1.5em;
+}
+
+#terminal > span:after {
+	content:"_";
+	opacity: 0;
+	animation: cursor 1s infinite;
+}
+
+@keyframes cursor {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }

@@ -6,15 +6,17 @@
   <title>Franco Rosa - Portfolio</title>
   <link rel="icon" href= "/favicon.ico" 
         type="image/x-icon"> 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <link rel="stylesheet" href="darkly.css">
   <link rel="stylesheet" href="style.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
-  <nav class="navbar sticky" role="navigation" aria-label="main navigation">
+  <nav class="navbar sticky is-dark" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="#">
-        <h3 class="title is-5 has-text-info">Franco</h3>
+        <h3 class="title is-5" id="terminal">
+          <span class="has-text-link">francorosa@dev:~$ </span>
+        </h3>
       </a>
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -24,13 +26,13 @@
     </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="#intro" >Intro</a>
-        <a class="navbar-item has-text-info" href="#projects" >Projects</a>
-        <a class="navbar-item" href="#contact" >Contact</a>
+        <a class="button is-link is-outlined" href="#intro">Intro</a>
+        <a class="button is-link is-outlined" href="#projects">Projects</a>
+        <a class="button is-link is-outlined" href="#contact">Contact</a>
       </div>
     </div>
   </nav>
-  <section class="intro" id="intro">
+  <section class="intro has-background-primary" id="intro">
     <div class="container">
       <div class="columns is-vcentered fits-screen">
         <div class="column is-8">
